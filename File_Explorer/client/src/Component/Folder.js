@@ -31,7 +31,7 @@ function Folder({ data }) {
             <input type="text" placeholder={`New ${showInput.isFolder ? "Folder" : "File"}`}  autoFocus  onBlur={() => setShowInput({ ...showInput, visible: false })}/>
           </div>
         )}
-        <div style={{ display: open ? "block" : "none",padding:5 }}>
+        <div style={{ display: open ? "block" : "none", padding:5 }}>
           {data.items.map((e) => {
             return <Folder key={e.id} data={e} />;
           })}

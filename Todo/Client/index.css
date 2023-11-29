@@ -1,0 +1,66 @@
+.todo{
+    width: 20%;
+    margin-left: 8%;
+    background-color: rgb(225, 122, 122);
+    margin-top: 5%;
+    padding: 30px;
+    border: 20px solid;
+    border-radius: 10px;
+    border-color: black;
+    font-size:large;
+}
+#btn{
+    background-color: rgb(15, 5, 90);
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin:3px;
+    border-radius: 5px;
+    border: none;
+    border:3px solid black;
+}
+
+#btne{
+    background-color: rgb(31, 120, 6);
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin:10px;
+    border-radius: 5px;
+    border: none;
+    border:2px solid black;
+    cursor: pointer;
+}
+#btnd{
+    background-color: rgb(237, 18, 18);
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin:10px;
+    border-radius: 5px;
+    border: none;
+    border:2px solid black;
+    cursor: pointer;
+}
+#title{
+    width: 50%;
+    height: 30px;
+}
+#description{
+    width: 50%;
+    height: 40px;
+}
+.listitem{
+    width: 35%;
+    margin-left: 45%;
+    background-color: rgb(225, 122, 122);
+    padding: 30px;
+    margin-top: -330px;
+    border: 20px solid;
+    border-radius: 10px;
+    border-color: black;
+    font-size:large;
+    font-weight: bolder;
+}
+
+
